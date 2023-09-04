@@ -36,7 +36,7 @@ const Projects = forwardRef((props, ref) => {
                     <div className='projects__image'>
                         <img src={img1} alt="project1" className='projects__img' ref={ref}/>
 
-                        <a href="/#" className="projects__button button">
+                        <a href="/" className="projects__button button">
                         <i className='ri-arrow-right-up-line'></i>
                         </a>
                     </div>
@@ -67,7 +67,7 @@ const Projects = forwardRef((props, ref) => {
                     <div className='projects__image'>
                         <img src={img2} alt="project1" className='projects__img'/>
 
-                        <a href="/#" className="projects__button button">
+                        <a href="/" className="projects__button button">
                         <i className='ri-arrow-right-up-line'></i>
                         </a>
                     </div>
@@ -98,7 +98,7 @@ const Projects = forwardRef((props, ref) => {
                     <div className='projects__image'>
                         <img src={img3} alt="project1" className='projects__img'/>
 
-                        <a href="/#" className="projects__button button">
+                        <a href="/" className="projects__button button">
                         <i className='ri-arrow-right-up-line'></i>
                         </a>
                     </div>

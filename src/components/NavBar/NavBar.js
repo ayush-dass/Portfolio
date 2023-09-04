@@ -70,7 +70,7 @@ const NavBar = ({ activeSection }) => {
       </Helmet>
       <header className={`header ${hasShadow ? 'shadow-header' : ''}`} id='header'>
         <nav className='nav container'>
-          <a href='/#' className='nav__logo'>
+          <a href='/' className='nav__logo'>
             <span className='nav__logo-circle'>AD</span>
             <span className='nav__logo-name'>Ayush Das.</span>
           </a>
