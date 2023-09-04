@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './ScrollUpButton.css'
 
 const ScrollUpButton = () => {
+  const handleLinkClick = (e) => {
+    e.preventDefault();
+  }
   const [showScroll, setShowScroll] = useState(false);
 
   const handleScroll = () => {
@@ -31,7 +34,7 @@ const ScrollUpButton = () => {
       className={`scrollup ${showScroll ? 'show-scroll' : ''}`}
       onClick={scrollToTop}
     >
-      <a href="/#" className='scroll-color'><i className="ri-arrow-up-s-line"></i></a>
+      <a href="/#" onClick={handleLinkClick} className='scroll-color'><i className="ri-arrow-up-s-line"></i></a>
     </div>
   );
 };
