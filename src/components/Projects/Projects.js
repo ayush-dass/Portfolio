@@ -2,8 +2,10 @@ import React, { useEffect , forwardRef} from 'react';
 import './Projects.css';
 import ScrollReveal from 'scrollreveal';
 
+import img1 from '../../assets/img/project-1.png'
+
 const Projects = forwardRef((props, ref) => {
-    var img1 = "https://img.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg?w=2000"
+
     var img2 = "https://img.freepik.com/free-vector/video-conference-remote-working-flat-illustration-screen-laptop-with-group-colleagues-people-conn_88138-548.jpg?w=2000"
     var img3 = "https://img.freepik.com/free-vector/tiny-programmers-big-laptop-writing-script-coders-app-developers-with-computers-flat-vector-illustration-programming-engineering-software-development-concept-banner-landing-web-page_74855-25360.jpg?w=1060&t=st=1693734610~exp=1693735210~hmac=05886017ba0d161b6354ba7dda4f6f6002fa628452b5a64c8da68f8ba0a8b923"
 
@@ -36,29 +38,24 @@ const Projects = forwardRef((props, ref) => {
                     <div className='projects__image'>
                         <img src={img1} alt="project1" className='projects__img' ref={ref}/>
 
-                        <a href="/Portfolio" className="projects__button button">
+                        <a href="https://smartbrain-2xew.onrender.com/" rel="noreferrer" target='_blank' className="projects__button button">
                         <i className='ri-arrow-right-up-line'></i>
                         </a>
                     </div>
 
                     <div className='projects__content'>
                         <h3 className="projects__subtitle">Website</h3>
-                        <h2 className="projects__title">Restaurant Website</h2>
+                        <h2 className="projects__title">Face-Detection Website</h2>
 
                         <p className="projects__description">
-                            Project that can carry out in the design
-                            and structure of the layout, showing the
-                            design at the client's request.
+                            The Smart Brain that can detect faces in any image url.
+                            Login or Register to keep track of your entries.
                         </p>
                     </div>
 
                     <div className='projects__buttons'>
-                        <a href="https://github.com" target='_blank' rel="noreferrer" className="projects__link">
+                        <a href="https://github.com/ayush-dass" target='_blank' rel="noreferrer" className="projects__link">
                             <i className='ri-github-line'></i> View
-                        </a>
-
-                        <a href="https://dribble.com" target='_blank' rel="noreferrer" className="projects__link">
-                            <i className='ri-dribbble-line'></i> View
                         </a>
                     </div>
                 </article>
@@ -87,10 +84,6 @@ const Projects = forwardRef((props, ref) => {
                         <a href="https://github.com" target='_blank' rel="noreferrer" className="projects__link">
                             <i className='ri-github-line'></i> View
                         </a>
-
-                        <a href="https://dribble.com" target='_blank' rel="noreferrer" className="projects__link">
-                            <i className='ri-dribbble-line'></i> View
-                        </a>
                     </div>
                 </article>
                 {/* --------------------------------------------------------------- */}
@@ -117,10 +110,6 @@ const Projects = forwardRef((props, ref) => {
                     <div className='projects__buttons'>
                         <a href="https://github.com" target='_blank' rel="noreferrer" className="projects__link">
                             <i className='ri-github-line'></i> View
-                        </a>
-
-                        <a href="https://dribble.com" target='_blank' rel="noreferrer" className="projects__link">
-                            <i className='ri-dribbble-line'></i> View
                         </a>
                     </div>
                 </article>
